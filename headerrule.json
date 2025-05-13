@@ -1,0 +1,14 @@
+[
+{
+  "id": 1,
+  "priority": 1,
+  "action": {
+    "type": "modifyHeaders",
+    "responseHeaders": [{ "header": "content-disposition", "operation": "set", "value": "inline" }]
+  },
+  "condition": {
+    "urlFilter": "https://eccc.weizmann.ac.il/report/*/download/",
+    "resourceTypes": ["main_frame"]
+  }
+}
+]
